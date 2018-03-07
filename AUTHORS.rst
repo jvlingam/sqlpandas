@@ -2,4 +2,4 @@
 Developers
 ==========
 
-* Vijay Jeyasingh <Vijay.Jeyasingh@standardbank.co.za>
+* Vijay Lingam <jvlingam@gmail.com>

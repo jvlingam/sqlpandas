@@ -13,10 +13,22 @@ from setuptools import setup
 
 
 def setup_package():
-    needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
-    sphinx = ['sphinx'] if needs_sphinx else []
-    setup(setup_requires=['six', 'pyscaffold>=2.5a0,<2.6a0'] + sphinx,
-          use_pyscaffold=True)
+    setup(name='sqlpandas',
+			version='0.1',
+			author = 'Vijay Lingam',
+			author_email = 'jvlingam@gmail.com',
+			url = 'https://github.com/jvlingam/SQLpandas',
+			description = "Native SQL Wrapper for Pandas",
+			license="VijayLingam",
+			platforms='All',
+			long_description = """\
+			-	This module accepts only select statement in SQL and accepts only one condition in this version.
+			-	Multiple columns select, single column select and all columns select options are available.
+			-	Also note, LIKE parameters, GroupBy option doesn't work in this version.
+			""",
+			include_package_data=True,
+			packages = ['sqlpandas'],
+			setup_requires=['pandas'])
 
 
 if __name__ == "__main__":

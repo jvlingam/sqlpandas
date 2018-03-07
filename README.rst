@@ -3,13 +3,13 @@ sqlpandas
 =========
 
 
-Add a short description here!
+Native SQL Wrapper for Pandas
 
 
 Description
 ===========
 
-A LONGER DESCRIPTION OF YOUR PROJECT GOES HERE...
+This modules provision to use native sql to query against the excel sheet.
 
 
 Note
