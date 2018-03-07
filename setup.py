@@ -17,7 +17,7 @@ def setup_package():
 			version='0.1',
 			author = 'Vijay Lingam',
 			author_email = 'jvlingam@gmail.com',
-			url = 'https://github.com/jvlingam/SQLpandas',
+			url = 'https://github.com/jvlingam/sqlpandas',
 			description = "Native SQL Wrapper for Pandas",
 			license="VijayLingam",
 			platforms='All',
